@@ -25,3 +25,13 @@ def find_the_cheese(array)
   end 
     return nil
 end
+
+def words_with_b(words)
+  new_array=[]
+  words.each { |b| 
+  if b.start_with? "b"
+   new_array << b
+  end
+  }
+  return new_array
+end 
